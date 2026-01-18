@@ -1,6 +1,6 @@
 package com.example.data
 
-import com.example.data.MockWirelessRepository
+import com.example.data.wireless.MockWirelessRepository
 import org.junit.Test
 import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertTrue

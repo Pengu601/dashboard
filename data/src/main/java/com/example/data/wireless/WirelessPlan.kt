@@ -1,4 +1,4 @@
-package com.example.data
+package com.example.data.wireless
 
 data class WirelessPlan(
     val dataUsedGb: Double,

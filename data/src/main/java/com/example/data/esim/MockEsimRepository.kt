@@ -43,5 +43,7 @@ class MockEsimRepository {
 
         //Success: Generate a random fake ICCID (SIM serial number)
         val mockIccid = "8901${Random.nextLong(10000000000000, 99999999999999)}"
+
+        emit(EsimProvisioningState.Success(mockIccid))
     }
 }

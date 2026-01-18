@@ -1,6 +1,7 @@
-package com.example.data
+package com.example.data.wireless
 
-import com.example.data.WirelessPlan
+import com.example.data.wireless.WirelessPlan
+import com.example.data.wireless.WirelessRepository
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
